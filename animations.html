@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 250px;
+            height: 220px;
+            border: 2px solid black;
+            background-image: url(../3d\ car.jpeg);
+        
+            animation-duration: 2s;
+            animation-name:car ;
+    
+            background-repeat: no-repeat;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes car{
+            form{background-image: url(../3d\ car.jpeg);}
+            to{background-image: url(../aero.jpeg);} 
+        }
+        .box2{
+            width: 200px;
+            height: 250px;
+        
+            animation-name: virat;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            margin-top: 40px;
+            padding: 10%;
+            background-repeat: no-repeat;
+            background-position: 20%;
+            background-size: 70%;
+        }
+        @keyframes virat{
+         0%{background-image:url(../foteus.jpeg) ;}
+           20%{background-image: url(../child1.jpeg);}
+           40%{background-image: url(../child2.jpeg);}
+           60%{background-image: url(../child3.jpeg);}
+           80%{background-image: url(../teen\ virat.jpeg);}
+           100%{background-image: url(../virat1.jpeg);}
+         
+        }
+     .box3{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin-top: 70px;
+        flex-wrap: wrap;
+        display: inline-flex;
+    position: relative;
+        animation-name: ball;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+    
+ 
+     }
+     @keyframes ball{
+0%{background-color: orange; left:0px; top:0px;}
+10%{background-color: whitesmoke; left:20px; top:10px;}
+20%{background-color: navy;left:40px; top:30px}
+30%{background-color: green;left:0px; top:200px}
+40%{background-color: yellow;left:0px; top:200px}
+50%{background-color: brown;left:0px; top:100px}
+60%{background-color: turquoise;left:0px; top:10px}
+70%{background-color: darkcyan;left:100px; top:0px}
+80%{background-color: pink;left:200px; top:0px}
+90%{background-color: springgreen;left:100px; top:200px}
+100%{background-color: black;left:200px; top:100px}
+
+     }
+     .box4{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin-top: 70px;
+        
+    position: relative;
+        animation-name: ball2;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+    
+ 
+
+     }
+     @keyframes ball2{
+0%{background-color: orange; left:0px; top:100px;}
+10%{background-color: whitesmoke; left:200px; top:0px;}
+20%{background-color: navy;left:0px; top:100px}
+30%{background-color: green;left:200px; top:0px}
+40%{background-color: black;left:0px; top:200px}
+50%{background-color: brown;left:0px; top:100px}
+60%{background-color:black;left:100px; top:0px}
+70%{background-color: darkcyan;left:0px; top:100px}
+80%{background-color: pink;left:200px; top:0px}
+90%{background-color: springgreen;left:100px; top:200px}
+100%{background-color: black;left:200px; top:100px}
+
+     }
+    </style>
+</head>
+<body>
+    <h1>ANIMATIONS</h1>
+    <div class="box">
+    </div>
+    <div class="box2">
+        
+    </div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+</html>
